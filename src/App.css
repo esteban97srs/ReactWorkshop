@@ -30,3 +30,8 @@
   --escala: 1.1;
   cursor:pointer;
 }
+
+.main {
+  display: flex;
+  justify-content: center;
+}

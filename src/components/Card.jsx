@@ -1,7 +1,12 @@
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 const Card = ({character}) => {
 
+  const navigate = useNavigate();
+
     return (
-      <div className="card hover-effect">
+      <div className="card hover-effect" onClick={(() =>{navigate('/detail/' + character?.id)})}>
         <img style={{borderTopLeftRadius:20, borderTopRightRadius:20}} src={character?.image} alt="" />
         <h1 style={{fontSize:25}}>{character.name}</h1>
         <div style={{display:'flex', justifyContent:'space-between', paddingLeft:50, paddingRight:50}}>
@@ -12,5 +17,5 @@ const Card = ({character}) => {
       </div>
     )
   }
-  
-  export default Card;
+
+export default Card;
