@@ -30,3 +30,7 @@ Vamos a realizar un listado de cards la cual tendrá una imagen y sus respectiva
 - Vamos a utilizar algunos hooks bastante utilizados en el día a día con React por lo cual te dejo la documentación oficial de React en donde puedes encontrar la explicación de ellos [aquí](https://react.dev/learn#using-hooks)
 
 - Espero sea de tu utilidad este proyecto y pueda servirte de impulso para tus nuevas ideas a futuro con React!
+
+- #Recursos
+- Logo rick and morty: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rick_and_Morty.svg/1280px-Rick_and_Morty.svg.png
+
